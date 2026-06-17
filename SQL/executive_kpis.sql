@@ -16,3 +16,10 @@
 SELECT
     COUNT(DISTINCT user_id) AS total_users
 FROM `le-wagon-bootcamp-493213.neo_bank.users`;
+-- -----------------------------------------------------
+-- Total Transactions
+-- -----------------------------------------------------
+
+SELECT
+    COUNT(*) AS total_transactions
+FROM `le-wagon-bootcamp-493213.neo_bank.transactions`;
