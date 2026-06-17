@@ -41,3 +41,23 @@ FROM `le-wagon-bootcamp-493213.neo_bank.transactions`;
 SELECT
     COUNT(DISTINCT country) AS countries_covered
 FROM `le-wagon-bootcamp-493213.neo_bank.users`;
+-- -----------------------------------------------------
+-- Transaction Volume
+-- -----------------------------------------------------
+
+SELECT
+    ROUND(SUM(amount_usd), 2) AS transaction_volume_usd
+FROM `le-wagon-bootcamp-493213.neo_bank.transactions`
+WHERE transactions_state = 'COMPLETED';
+
+-- -----------------------------------------------------
+-- Crypto Unlock Rate
+-- -----------------------------------------------------
+
+SELECT
+    ROUND(
+        100 * COUNTIF(user_settings_crypto_unlocked = 1)
+        / COUNT(*),
+        2
+    ) AS crypto_unlock_rate
+FROM `le-wagon-bootcamp-493213.neo_bank.users`;
