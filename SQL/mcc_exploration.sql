@@ -16,3 +16,13 @@
 -- The reference table was then joined to transaction
 -- records to enable category-level exploration and
 -- transaction behaviour analysis.
+-- -----------------------------------------------------
+-- 0. MCC Reference Table
+-- -----------------------------------------------------
+--
+-- Reference table created:
+--
+-- le-wagon-bootcamp-493213.neo_bank.mcc_codes
+--
+-- Used to translate merchant category codes into
+-- human-readable merchant categories.
