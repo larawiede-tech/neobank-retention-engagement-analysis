@@ -23,3 +23,21 @@ FROM `le-wagon-bootcamp-493213.neo_bank.users`;
 SELECT
     COUNT(*) AS total_transactions
 FROM `le-wagon-bootcamp-493213.neo_bank.transactions`;
+-- -----------------------------------------------------
+-- Completed Transaction Rate
+-- -----------------------------------------------------
+
+SELECT
+    ROUND(
+        100 * COUNTIF(transactions_state = 'COMPLETED')
+        / COUNT(*),
+        2
+    ) AS completed_transaction_rate
+FROM `le-wagon-bootcamp-493213.neo_bank.transactions`;
+-- -----------------------------------------------------
+-- Countries Covered
+-- -----------------------------------------------------
+
+SELECT
+    COUNT(DISTINCT country) AS countries_covered
+FROM `le-wagon-bootcamp-493213.neo_bank.users`;
