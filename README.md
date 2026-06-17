@@ -56,5 +56,8 @@ SQL/           Analysis queries
 ---
 
 ## Status
+## Project Presentation
 
-Project documentation in progress.
+The final project presentation is available here:
+
+[📄 Final Presentation](presentation/Neo_Bank_Presentation.pdf)
