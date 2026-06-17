@@ -1,1 +1,11 @@
+-- =====================================================
+-- EXECUTIVE KPI OVERVIEW
+-- Neo-Bank Retention & Engagement Project
+-- Author: Lara Wiede
+-- =====================================================
 
+-- Objective:
+-- Create key business metrics used in the Executive
+-- Overview dashboard to provide stakeholders with a
+-- high-level view of customer activity, transaction
+-- performance, and geographic reach.
