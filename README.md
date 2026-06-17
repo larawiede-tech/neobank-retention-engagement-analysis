@@ -6,7 +6,7 @@ This project explores customer retention, engagement, and churn risk within a gl
 
 The objective was to understand user behaviour, identify key drivers of retention and churn, and provide actionable business recommendations to improve long-term customer engagement.
 
-This project was developed as part of a Data Analytics Bootcamp final project.
+This project was developed as part of a team-based Data Analytics Bootcamp final project.
 
 ---
 
@@ -20,18 +20,73 @@ The Neo-Bank aims to better understand:
 - Opportunities to improve user engagement and reduce churn
 
 ---
+## Project Presentation
 
-## My Contributions
+The final project presentation is available here:
 
-As a Data Analyst on the project team, I contributed to:
+[📄 Final Presentation](presentation/Neo_Bank_Presentation.pdf)
 
-- KPI definition and development for the project overview dashboard
-- Exploratory analysis of transaction data
-- Data cleaning and validation
-- Merchant Category Code (MCC) analysis to identify key spending categories
-- Development of business insights and recommendations
-- Final project storytelling and presentation
+## Team Project
+
+This project was completed as part of a collaborative Data Analytics Bootcamp final project. The screenshots below showcase selected pages from the final team dashboard, while my individual contribution is detailed in a dedicated section.
+
+## Dashboard Preview
+The following screenshots showcase selected pages from the final team dashboard.
+
+### Bank Profile
+
+![Bank Profile](images/bank-profile-dashboard.png)
+
+### User Engagement
+
+![User Engagement](images/user-engagement-dashboard.png)
+
+### Cohort Retention
+
+![Cohort Retention](images/cohort-retention-dashboard.png)
+
+## My Contribution
+
+I was responsible for developing the Executive Overview dashboard, providing stakeholders with a high-level view of customer activity, transaction performance, geographic reach, and key business KPIs.
+
+My contributions included:
+
+- Defining and designing key business KPIs
+- Exploring, cleaning, and validating transaction data
+- Analyzing Merchant Category Codes (MCCs) to better understand customer spending behavior
+- Developing geographic distribution insights across the customer base
+- Contributing to business storytelling and stakeholder communication
+- Supporting the development and delivery of the final project presentation
 - Communicating findings to both technical and non-technical audiences
+
+### Executive Overview Dashboard
+
+![Executive Overview Dashboard](images/overview-my-contribution.png)
+
+---
+## Key Findings
+
+- Retention drops most sharply during the first two months after signup.
+- Customers using 5–6 key features show the lowest churn risk.
+- Standard plan users are more likely to become at risk than Premium or Metal customers.
+- Risk increases with age, particularly among users aged 45+.
+- Transaction patterns suggest the platform is increasingly used for daily banking activities.
+- The United Kingdom represented the largest user base in the dataset.
+
+---
+## Business Recommendations
+
+### Activation
+- Focus onboarding and activation efforts during the first two months.
+- Define clear activation milestones and success metrics.
+
+### Diversification
+- Encourage customers to adopt additional key features.
+- Use onboarding flows and gamification to increase feature usage.
+
+### Upgrade
+- Promote Premium and Metal plans through targeted campaigns.
+- Offer trial periods to encourage plan upgrades.
 
 ---
 
@@ -54,10 +109,3 @@ SQL/           Analysis queries
 ```
 
 ---
-
-## Status
-## Project Presentation
-
-The final project presentation is available here:
-
-[📄 Final Presentation](presentation/Neo_Bank_Presentation.pdf)
