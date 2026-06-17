@@ -1,0 +1,5 @@
+-- =====================================================
+-- TRANSACTION DATA QUALITY & EXPLORATION
+-- Neo-Bank Retention & Engagement Project
+-- Author: Lara Wiede
+-- =====================================================
