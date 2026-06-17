@@ -28,7 +28,7 @@ The final project presentation is available here:
 
 ## Team Project
 
-This project was completed as part of a collaborative Data Analytics Bootcamp final project. The screenshots below showcase selected pages from the final team dashboard, while my individual contribution is detailed in a dedicated section.
+The screenshots below showcase selected pages from the final team dashboard, while my individual contribution is detailed in a dedicated section.
 
 ## Dashboard Preview
 The following screenshots showcase selected pages from the final team dashboard.
@@ -53,7 +53,7 @@ My contributions included:
 
 - Defining and designing key business KPIs
 - Exploring, cleaning, and validating transaction data
-- Analyzing Merchant Category Codes (MCCs) to better understand customer spending behavior
+- Building an MCC reference table and enriching transaction data to enable merchant category analysis
 - Developing geographic distribution insights across the customer base
 - Contributing to business storytelling and stakeholder communication
 - Supporting the development and delivery of the final project presentation
@@ -63,6 +63,7 @@ My contributions included:
 
 ![Executive Overview Dashboard](images/overview-my-contribution.png)
 
+This dashboard page was designed and developed as my primary contribution to the project.
 ---
 ## Key Findings
 
@@ -105,7 +106,17 @@ My contributions included:
 ```text
 images/        Dashboard screenshots
 presentation/  Final presentation
-SQL/           Analysis queries
+SQL/           SQL analysis and KPI development
+README.md      Project documentation
 ```
 
 ---
+## SQL Analysis
+
+Selected SQL queries used during the project are available in the [SQL](SQL/) folder.
+
+These include:
+
+- Data quality assessment
+- Executive KPI development
+- Merchant Category Code (MCC) exploration
