@@ -1,1 +1,18 @@
+-- =====================================================
+-- MERCHANT CATEGORY CODE (MCC) EXPLORATION
+-- Neo-Bank Retention & Engagement Project
+-- Author: Lara Wiede
+-- =====================================================
 
+-- Objective:
+-- The original dataset contained Merchant Category Codes
+-- (MCCs) but no merchant category descriptions.
+-- To enrich the transaction dataset, an external MCC
+-- reference table was created using publicly available
+-- MCC definitions.
+-- Source:
+-- https://github.com/greggles/mcc-codes
+--
+-- The reference table was then joined to transaction
+-- records to enable category-level exploration and
+-- transaction behaviour analysis.
